@@ -69,8 +69,8 @@ public class CarRepository
     {
         try
         {
-           var student = Get(id);
-           connection.Delete(student);
+           var car = Get(id);
+           connection.Delete(car);
         }
         catch (Exception ex)
         {
